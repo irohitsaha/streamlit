@@ -5,7 +5,7 @@ import numpy as np
 
 st.title("Titanic Dataset")
 
-df = pd.read_csv("\\streamlit\\titanic.csv")
+df = pd.read_csv("\\titanic.csv")
 st.dataframe(df)
 
 st.subheader("Description of the dataset")
