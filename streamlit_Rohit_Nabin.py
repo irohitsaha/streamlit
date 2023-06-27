@@ -5,7 +5,8 @@ import numpy as np
 
 st.title("Titanic Dataset")
 
-df = pd.read_csv("\\titanic.csv")
+url = "https://raw.githubusercontent.com//datasciencedojo//datasets//master//titanic.csv"
+df = pd.read_csv(url)
 st.dataframe(df)
 
 st.subheader("Description of the dataset")
